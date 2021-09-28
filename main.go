@@ -29,7 +29,7 @@ func init() {
 	flag.Parse()
 	if *helpFlag {
 		flag.PrintDefaults()
-		return
+		os.Exit(0)
 	}
 	todaysDate = generateDatestamp()
 }
