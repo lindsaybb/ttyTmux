@@ -1,6 +1,6 @@
 # ttyTmux
 
-ttyTmux is a Serial Setup and Logging Utility, intended as Daily Cron job in Lab. An opinionated wrapper around Tmux, it solves the problem of not just setting up Tmux sessions, but cycling logs daily to correlate events. One major flaw is that the baudrate must be the same for all devices, which is impractical in most environments but acceptable for our lab's focus of monitoring OLT. Since minicom must be run as root, tmux is run as root, and therefore must be accessed with "sudo tmux ls" etc after initialization.
+ttyTmux is a Serial Setup and Logging Utility, intended as Daily Cron job in Lab. An opinionated wrapper around Tmux, it solves the problem of not just setting up multiple Minicom sessions within a Tmux instance, but naming and cycling logs daily to segment and correlate events. One major flaw is that the baudrate must be the same for all devices, which is impractical in most environments but acceptable for our lab's focus of monitoring OLT. Since minicom must be run as root, tmux is run as root, and therefore must be accessed with "sudo tmux ls" etc after initialization.
 
 | Flag | Description |
 | ------ | ------ |
