@@ -16,7 +16,7 @@ no server running on /tmp/tmux-1000/default
 ~/test> sudo tmux ls
 no server running on /tmp/tmux-0/default
 ~/test> sudo ps aux | grep minicom
-lbnp       39701  0.0  0.0   9040   664 pts/0    S+   10:28   0:00 grep --color=auto minicom
+user       39701  0.0  0.0   9040   664 pts/0    S+   10:28   0:00 grep --color=auto minicom
 ~/test> sudo ./ttyTmux
 ~/test> sudo tmux ls
 tty0: 1 windows (created Tue Sep 28 10:28:10 2021)
@@ -28,5 +28,5 @@ tty2: 1 windows (created Tue Sep 28 10:28:10 2021)
 root       39892  0.0  0.0   9848  4048 pts/1    S+   10:28   0:00 minicom -D /dev/ttyUSB0 -b 115200 -C 20210928_tty0.log
 root       39919  0.0  0.0   9848  4060 pts/2    S+   10:28   0:00 minicom -D /dev/ttyUSB1 -b 115200 -C 20210928_tty1.log
 root       39934  0.0  0.0   9848  4084 pts/3    S+   10:28   0:00 minicom -D /dev/ttyUSB2 -b 115200 -C 20210928_tty2.log
-lbnp       39965  0.0  0.0   9040   736 pts/0    S+   10:28   0:00 grep --color=auto minicom
+user       39965  0.0  0.0   9040   736 pts/0    S+   10:28   0:00 grep --color=auto minicom
 ```
